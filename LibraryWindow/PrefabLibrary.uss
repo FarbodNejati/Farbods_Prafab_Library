@@ -1,0 +1,101 @@
+#library_root-field .unity-base-field__label {
+    width: auto;
+    min-width: auto;
+    flex-grow: 1;
+    margin-right: 20px;
+}
+
+#library_root-field .unity-base-field__input {
+    min-width: 128px;
+}
+
+#library_main {
+    flex-grow: 1;
+    background-color: rgba(0, 0, 0, 0.13);
+}
+
+#library_side-pane {
+    flex-grow: 0;
+    flex-shrink: 0;
+    min-width: 150px;
+    width: 30%;
+    max-width: 275px;
+    border-left-color: rgb(34, 34, 34);
+    border-right-color: rgb(34, 34, 34);
+    border-top-color: rgb(34, 34, 34);
+    border-bottom-color: rgb(34, 34, 34);
+    border-left-width: 1px;
+    flex-basis: auto;
+}
+
+.folder-view {
+    background-color: rgb(42, 42, 42);
+    flex-grow: 1;
+}
+
+.folder-view__header {
+    background-color: rgb(37, 37, 37);
+    align-items: center;
+    -unity-text-align: middle-left;
+}
+
+.folder-view__icon {
+    width: 16px;
+    height: 16px;
+    margin-left: 2px;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 2px;
+    flex-shrink: 0;
+}
+
+.folder-view__toolbar {
+    -unity-text-align: middle-left;
+    color: rgb(161, 161, 161);
+    margin-bottom: 2px;
+}
+
+.folder-view__folder {
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    flex-direction: row;
+}
+
+Toolbar .folder-view__folder {
+    margin-top: 0;
+    flex-grow: 1;
+}
+
+#folder-view_rescan-btn {
+    flex-direction: row;
+    align-items: center;
+    -unity-text-align: middle-left;
+}
+
+#folder-view_rescan-btn .folder-view__icon {
+    width: 16px;
+    height: 16px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    flex-shrink: 0;
+}
+
+.folder-view__folder.folder-view__folder--selected {
+    background-color: rgb(80, 80, 80);
+}
+
+.folder-view__folder:hover {
+    background-color: rgb(51, 51, 51);
+}
+
+#get-started-container:disabled {
+    display: none;
+}
+
+#relocate-settings-container:disabled {
+    display: none;
+}

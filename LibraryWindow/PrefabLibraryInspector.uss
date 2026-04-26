@@ -1,0 +1,149 @@
+.inspector-item {
+    align-items: stretch;
+}
+
+.inspector-item Toolbar {
+    color: rgba(210, 210, 210, 0.6);
+    margin-bottom: 4px;
+    padding-left: 4px;
+    -unity-text-align: middle-left;
+}
+
+.inspector-item Toolbar > Label {
+    flex-grow: 1;
+}
+
+.inspector-item .library-item_preview {
+    height: 160px;
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.inspector_separator {
+    border-top-width: 2px;
+    border-left-color: rgb(125, 125, 125);
+    border-right-color: rgb(125, 125, 125);
+    border-top-color: rgb(125, 125, 125);
+    border-bottom-color: rgb(125, 125, 125);
+    margin-right: 4px;
+    margin-left: 4px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.inspector-item .library-item_meta {
+    padding-left: 8px;
+    padding-right: 8px;
+    flex-grow: 0;
+}
+
+.inspector-item .library-item_meta__label {
+    margin-top: 4px;
+    font-size: 14px;
+    -unity-text-align: upper-center;
+    -unity-font-style: normal;
+}
+
+.inspector-item .library-item_meta__tags {
+    margin-top: 4px;
+    align-items: center;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.inspector-item .library-item_meta__tag {
+    font-size: 12px;
+    height: 22px;
+    -unity-text-align: middle-center;
+    margin-right: 2px;
+    margin-top: 2px;
+    margin-left: 2px;
+    align-items: center;
+    margin-bottom: 2px;
+    color: rgb(255, 255, 255);
+}
+
+.inspector-item .library-item_meta__tag:hover {
+    border-left-color: rgba(255, 255, 255, 0.59);
+    border-right-color: rgba(255, 255, 255, 0.59);
+    border-top-color: rgba(255, 255, 255, 0.59);
+    border-bottom-color: rgba(255, 255, 255, 0.59);
+}
+
+.inspector-item Button.tag-delete-button {
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 0;
+    padding-bottom: 0;
+    -unity-font-style: bold;
+    background-color: rgba(106, 106, 106, 0.15);
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    margin-right: 2px;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-left-color: rgba(161, 161, 161, 0.13);
+    border-right-color: rgba(161, 161, 161, 0.13);
+    border-top-color: rgba(161, 161, 161, 0.13);
+    border-bottom-color: rgba(161, 161, 161, 0.13);
+}
+
+.inspector-item Button.tag-delete-button:hover {
+    background-color: rgba(204, 204, 204, 0.18);
+    border-left-color: rgba(255, 255, 255, 0.72);
+    border-right-color: rgba(255, 255, 255, 0.72);
+    border-top-color: rgba(255, 255, 255, 0.72);
+    border-bottom-color: rgba(255, 255, 255, 0.72);
+}
+
+.new-tag-field {
+    width: 100%;
+    flex-grow: 1;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 2px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.new-tag-field .unity-base-field__input {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    -unity-text-align: middle-left;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    -unity-font-style: italic;
+    flex-shrink: 1;
+    flex-grow: 0;
+    flex-basis: auto;
+    max-width: none;
+    min-width: 80px;
+}
+
+.new-tag-field .unity-base-field__label {
+    visibility: visible;
+    display: flex;
+    margin-right: 4px;
+    min-width: 0;
+    min-height: auto;
+    width: auto;
+    flex-grow: 1;
+}
+
+.new-tag-field Button {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}

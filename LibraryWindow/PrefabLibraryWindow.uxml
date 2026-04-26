@@ -1,0 +1,32 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/Scripts/Editor/PrefabLibrary/LibraryWindow/PrefabLibrary.uss?fileID=7433441132597879392&amp;guid=7f866267864865a4b995a384282383d0&amp;type=3#PrefabLibrary" />
+    <Style src="project://database/Assets/Scripts/Editor/PrefabLibrary/LibraryWindow/PrefabLibraryScroll.uss?fileID=7433441132597879392&amp;guid=4f7e6818da1fd7f44a38b16c01be9143&amp;type=3#PrefabLibraryScroll" />
+    <Style src="project://database/Assets/Scripts/Editor/PrefabLibrary/LibraryWindow/PrefabLibraryInspector.uss?fileID=7433441132597879392&amp;guid=e30ad38a2ee21064bbb53b9afd9c7b4b&amp;type=3#PrefabLibraryInspector" />
+    <ui:VisualElement name="prefabLibrary-window" style="flex-grow: 1; flex-direction: row;">
+        <ui:VisualElement name="library_main" style="overflow: hidden;">
+            <uie:Toolbar name="library_toolbar">
+                <uie:ToolbarMenu display-tooltip-when-elided="true" text="View" name="library_toolbar__viewMode" enable-rich-text="false" />
+                <uie:ToolbarSpacer style="flex-grow: 1;" />
+                <uie:ToolbarPopupSearchField focusable="true" name="library_toolbar__search" style="width: 170px; max-width: 60%;" />
+            </uie:Toolbar>
+            <uie:Toolbar>
+                <uie:ToolbarBreadcrumbs name="proplibrary_library__path-crumbs" />
+            </uie:Toolbar>
+            <ui:VisualElement name="get-started-container" style="flex-grow: 1; align-items: center; justify-content: center; -unity-text-align: upper-center;">
+                <ui:Label text="You need to select a directory within your  &lt;b&gt;&lt;i&gt;Assets folder&lt;/i&gt;&lt;/b&gt; to get started" display-tooltip-when-elided="true" style="opacity: 0.8; font-size: 12px; width: 260px; white-space: normal; -unity-font-style: normal;" />
+                <ui:Button text="+ Select Root" display-tooltip-when-elided="true" name="get-started-btn" style="-unity-font-style: normal; margin-top: 12px; padding-left: 8px; padding-right: 8px; padding-top: 2px; padding-bottom: 2px; font-size: 14px;" />
+                <ui:VisualElement name="relocate-settings-container" style="align-items: center; justify-content: center; -unity-text-align: upper-center; padding-top: 38px;">
+                    <ui:Label text="Or &lt;b&gt;&lt;i&gt;relocate&lt;/i&gt;&lt;/b&gt; your settings file." display-tooltip-when-elided="true" style="opacity: 0.8; font-size: 12px; width: 260px; white-space: normal;" />
+                    <ui:Button text="Relocate Settings" display-tooltip-when-elided="true" name="relocate-settings-btn" style="-unity-font-style: normal; margin-top: 12px; padding-left: 8px; padding-right: 8px; padding-top: 2px; padding-bottom: 2px; font-size: 14px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <Farbod.PrefabLibrary.PrefabLibraryScrollView />
+        </ui:VisualElement>
+        <ui:VisualElement name="library_side-pane">
+            <Farbod.PrefabLibrary.PrefabInspectorView style="flex-grow: 1; flex-shrink: 0;" />
+            <ui:VisualElement name="VisualElement" style="border-top-color: rgb(34, 34, 34); border-top-width: 2px; overflow: hidden;">
+                <Farbod.PrefabLibrary.PrefabLibraryFolderView />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,235 @@
+.proplibrary_library__scroll:disabled {
+    display: none;
+}
+
+.proplibrary_library__scroll .unity-scroll-view__content-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.proplibrary_library__scroll .library-item {
+    width: 134px;
+    background-color: rgb(56, 56, 56);
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-color: rgb(38, 38, 38);
+    border-right-color: rgb(38, 38, 38);
+    border-top-color: rgb(38, 38, 38);
+    border-bottom-color: rgb(38, 38, 38);
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    overflow: hidden;
+    flex-grow: 0;
+    height: auto;
+}
+
+.library-item:hover {
+    border-left-color: rgb(111, 111, 111);
+    border-right-color: rgb(111, 111, 111);
+    border-top-color: rgb(111, 111, 111);
+    border-bottom-color: rgb(111, 111, 111);
+}
+
+.library-item.active {
+    border-left-color: rgb(58, 121, 187);
+    border-right-color: rgb(58, 121, 187);
+    border-top-color: rgb(58, 121, 187);
+    border-bottom-color: rgb(58, 121, 187);
+    background-color: rgba(44, 93, 135, 0.4);
+}
+
+.library-item:focus {
+    border-left-color: rgb(58, 121, 187);
+    border-right-color: rgb(58, 121, 187);
+    border-top-color: rgb(58, 121, 187);
+    border-bottom-color: rgb(58, 121, 187);
+    background-color: rgb(44, 93, 135);
+}
+
+.library-item_meta__label {
+    -unity-font-style: bold;
+    margin-top: 2px;
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.library-item_preview {
+    width: 125px;
+    height: 125px;
+    background-color: rgb(82, 82, 82);
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.library-item_meta__tags {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.library-item_meta__tag {
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-right: 2px;
+    margin-top: 2px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    -unity-font-style: italic;
+    font-size: 8px;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.library--compactListView .unity-scroll-view__content-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.library--compactListView .library-item {
+    width: 45%;
+    height: 28.8px;
+    flex-direction: row;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding-left: 4px;
+    padding-right: 2px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    flex-grow: 1;
+    align-items: center;
+    min-width: 250px;
+    max-width: 100%;
+}
+
+.library--compactListView .library-item_meta {
+    flex-direction: row;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.library--compactListView .library-item_meta__label {
+    width: auto;
+    flex-grow: 1;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 4px;
+    margin-right: 6px;
+    margin-top: 0;
+    margin-bottom: 0;
+    -unity-text-align: middle-left;
+    flex-shrink: 0;
+    white-space: nowrap;
+}
+
+.library--compactListView .library-item_preview {
+    display: none;
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.library--compactListView .library-item_meta__tags {
+    flex-wrap: nowrap;
+    flex-shrink: 1;
+    overflow: hidden;
+}
+
+.library--compactListView .library-item_meta__tag {
+    margin-top: 0;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    font-size: 10px;
+}
+
+.library--boxListView .unity-scroll-view__content-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.library--boxListView .library-item {
+    width: 32%;
+    flex-direction: row;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding-left: 4px;
+    padding-right: 2px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    flex-grow: 1;
+    align-items: stretch;
+    max-width: 100%;
+    height: 50px;
+    max-height: none;
+    min-width: 250px;
+}
+
+.library--boxListView .library-item_preview {
+    width: 40px;
+    height: 40px;
+}
+
+.library--boxListView .library-item_meta {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-grow: 1;
+    margin-left: 4px;
+}
+
+.library--boxListView .library-item_meta__tags {
+    width: auto;
+    height: auto;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+}
+
+.library--boxListView .library-item_meta__label {
+    height: auto;
+    white-space: normal;
+    font-size: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.proplibrary_library__scroll {
+    flex-grow: 1;
+}
