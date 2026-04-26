@@ -11,11 +11,11 @@ Tags are saved as *string GUIDs* within the userData of your prefab's **.meta fi
 ## Tag Registry
 After tag GUIDs are read from the meta file of your asset, the correct tag data is loaded from the **Settings** file's Tag registry, which is automatically created within `Assets/Settings`.
 If unregistered tag GUIDs are found within your assets, they will be added to the Tag registry, where you can rename them and change their color.
-if you move or rename your settings file, you can relocate it within the "Getting Started" window.
 
+>[!CAUTION]
+>If you rename, move or delete your settings file, please close and reopen the Prefab Library window, you can then relocate it, or create a new one within the "Getting started" screen.
 
+>[!CAUTION]
+>I trust in your judgment to not manually modify the tags of a prefab within its .meta file, and to not do anything weird in general until the tool is more ironed out.
 
-
-* If you rename or move your settings file, please close and reopen the Prefab Library window.
-* The UI for this tool is made with the 2021.3.1f1 version of UIElements (UI Toolkit).
-* by [Farbod Nejati](https://github.com/FarbodNejati)
+This tool was made using Unity 2021.3.1f1 with the UIElements (UI Toolkit) Package. by [Farbod Nejati](https://github.com/FarbodNejati)
