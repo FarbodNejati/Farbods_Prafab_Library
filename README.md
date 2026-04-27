@@ -16,7 +16,7 @@ If unregistered tag GUIDs are found within your assets, they will be added to th
 >If you rename, move or delete your settings file, please close and reopen the Prefab Library window, you can then relocate it, or create a new one within the "Getting started" screen.
 
 >[!WARNING]
->Large batch operations will take a ling time. this will hopefully be resolved in later updates.
+>Large batch operations will take a long time. this will hopefully be resolved in later updates.
 
 >[!WARNING]
 >I trust in your judgment to not manually modify the tags of a prefab within its .meta file, and to not do anything weird in general until the tool is more ironed out.
