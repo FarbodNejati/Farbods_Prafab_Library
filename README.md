@@ -21,4 +21,11 @@ If unregistered tag GUIDs are found within your assets, they will be added to th
 >[!WARNING]
 >I trust in your judgment to not manually modify the tags of a prefab within its .meta file, and to not do anything weird in general until the tool is more ironed out.
 
+TODO:
+
+- [ ] Asset Importer and Deletion script fix
+- [ ] Split View
+- [ ] Sort modes (by creation date, modified date, name, tag)
+- [ ] Move UI Assets to /Resources
+
 This tool was made using Unity 2021.3.1f1 with the UIElements (UI Toolkit) Package. by [Farbod Nejati](https://github.com/FarbodNejati)
